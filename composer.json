@@ -1,0 +1,26 @@
+{
+    "name": "brayun/installers",
+    "description": "brayun install base laravel 5",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ethan",
+            "email": "ethan@brayun.com"
+        }
+    ],
+    "require": {
+        "composer-plugin-api": "^1.0"
+    },
+    "require-dev": {
+        "composer/composer": "^1.5"
+    },
+    "extra": {
+        "class": "Brayun\\Installer\\Composer\\Plugin"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brayun\\Installer\\": "src/"
+        }
+    }
+}
